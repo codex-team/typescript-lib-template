@@ -48,7 +48,7 @@ jobs:
 
   notify:
     needs: publish
-    if: ${{github.ref == 'refs/head/main'}} && ${{secrets.CODEX_BOT_WEBHOOK}}
+    if: github.ref == 'refs/head/main'
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
