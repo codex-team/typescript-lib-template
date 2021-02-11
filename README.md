@@ -2,7 +2,7 @@
 A quick start template for a new TypeScript library
 
 [![NPM version](https://img.shields.io/npm/v/@codexteam/typescript-lib-template?style=flat-square)](https://www.npmjs.com/package/@codexteam/typescript-lib-template)
-[![License](https://img.shields.io/npm/l/@editorjs/editorjs?style=flat-square)](https://www.npmjs.com/package/@codexteam/typescript-lib-template)
+[![License](https://img.shields.io/npm/l/@codexteam/typescript-lib-template?style=flat-square)](https://www.npmjs.com/package/@codexteam/typescript-lib-template)
 
 ## How to use
 1. Click [here](https://github.com/codex-team/typescript-lib-template/generate) and fill setting for new repository
