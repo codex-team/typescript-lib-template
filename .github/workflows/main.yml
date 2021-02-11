@@ -41,14 +41,14 @@ jobs:
         run: yarn build
 
       - name: Publish library
-        if: ${{ github.ref == 'refs/head/main' }}
+        if: ${{ github.ref == 'refs/heads/main' }}
         run: yarn publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   notify:
     needs: lint-test-build-publish
-    if: github.ref == 'refs/head/main'
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
