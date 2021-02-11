@@ -47,7 +47,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   notify:
-    needs: publish
+    needs: lint-test-build-publish
     if: github.ref == 'refs/head/main'
     runs-on: ubuntu-20.04
     steps:
