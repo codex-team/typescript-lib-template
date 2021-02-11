@@ -1,5 +1,5 @@
 {
-  "name": "typescript-lib-template",
+  "name": "@codexteam/typescript-lib-template",
   "version": "1.0.0",
   "description": "A quick start template for a new TypeScript library",
   "main": "index.js",
