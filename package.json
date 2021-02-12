@@ -1,6 +1,6 @@
 {
   "name": "@codexteam/typescript-lib-template",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A quick start template for a new TypeScript library",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -8,7 +8,7 @@
   "author": "CodeX Team <all@codex.so>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "lint:test": "eslint ./src",
     "lint": "eslint ./src --fix",
     "test": "jest"

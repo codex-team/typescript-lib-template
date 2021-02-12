@@ -1,7 +1,7 @@
-import main from "../src";
+import main from '../src';
 
 describe('TypeScript library template', () => {
   test('Should return correct result', () => {
-    expect(main()).toBe('It works!')
-  })
+    expect(main()).toBe('It works!');
+  });
 });
