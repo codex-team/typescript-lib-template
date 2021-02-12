@@ -1,6 +1,6 @@
 {
   "name": "@codexteam/typescript-lib-template",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A quick start template for a new TypeScript library",
   "main": "build/index.js",
   "types": "build/index.d.ts",
