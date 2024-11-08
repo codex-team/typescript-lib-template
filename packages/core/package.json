@@ -1,0 +1,19 @@
+{
+  "name": "mylib",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ./src",
+    "lint:fix": "yarn lint --fix",
+    "build": "tsc -p ../../tsconfig.build.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-config-codex": "2.0.3-rc.1",
+    "mylib-utils": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

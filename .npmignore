@@ -4,3 +4,4 @@ tests/
 .git
 .github
 yarn.lock
+eslint.config.mjs

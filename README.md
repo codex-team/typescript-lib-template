@@ -1,14 +1,26 @@
-# typescript-lib-template
+# @codexteam/typescript-lib-template
 A quick start template for a new TypeScript library
 
 [![NPM version](https://img.shields.io/npm/v/@codexteam/typescript-lib-template?style=flat-square)](https://www.npmjs.com/package/@codexteam/typescript-lib-template)
 [![License](https://img.shields.io/npm/l/@codexteam/typescript-lib-template?style=flat-square)](https://www.npmjs.com/package/@codexteam/typescript-lib-template)
+
+## Features 
+
+- 💄 Yarn 4
+- 🛍️ Yarn Workspaces
+- 💎 ESLint 9
+- 🥃 Typescript 5
+- 🥊 npx only-allow yarn
+- 🌶️ Tests
+- 🍀 GitHub Actions
 
 ## How to use
 1. Click [here](https://github.com/codex-team/typescript-lib-template/generate) and fill setting for new repository
 2. Change package name in `package.json` and other fields if necessary
 3. Change NPM package scope from [workflow file](./.github/workflows/main.yml) or remove it
 4. Fill `NPM_TOKEN` and `CODEX_BOT_WEBHOOK` secrets in your repository or organization settings
+5. Change name of `packages/core` to your main package name
+5. Go to `packages/core/package.json` and `package/utils/package.json` and change their names
 5. Start writing your new library!
 
 ## Features
