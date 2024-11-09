@@ -25,6 +25,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Enable Corepack
+        run: corepack enable
+
+      - name: Use specified Yarn version
+        run: corepack prepare yarn@4.5.1 --activate
+
       - name: Install dependecies
         run: yarn install
 
