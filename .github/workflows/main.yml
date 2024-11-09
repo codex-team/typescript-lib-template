@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs:
-  lint-test-build:
+  lint-test:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout repository
@@ -40,8 +40,8 @@ jobs:
       - name: Run unit tests
         run: yarn test
 
-      - name: Build library
-        run: yarn build
+      # - name: Build library
+      #   run: yarn build
 
       # - name: Publish library
       #   if: ${{ github.ref == 'refs/heads/main' }}

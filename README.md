@@ -11,7 +11,7 @@ A quick start template for a new TypeScript library
 - 💎 ESLint 9 with [eslint-config-codex](http://github.com/codex-team/eslint-config/)
 - 🥃 Typescript 5
 - 🥊 npx only-allow yarn
-- 🌶️ Tests with [Jest](http://jestjs.io)
+- 🌶️ Tests with [Vitest](https://vitest.dev)
 - 🍀 GitHub Actions for test/lint/build/publish purposes
 
 ## How to use

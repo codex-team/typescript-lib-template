@@ -5,3 +5,6 @@ tests/
 .github
 yarn.lock
 eslint.config.mjs
+vitest.config.ts
+vitest.workspace.ts
+*.test.ts
