@@ -62,7 +62,7 @@ __metadata:
   resolution: "@codexteam/typescript-lib-template@workspace:."
   dependencies:
     eslint: "npm:^9.14.0"
-    eslint-config-codex: "npm:2.0.3-rc.3"
+    eslint-config-codex: "npm:^2.0.3"
     rimraf: "npm:^6.0.1"
     ts-node: "npm:^10.9.2"
     typescript: "npm:^5.6.3"
@@ -1709,9 +1709,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-codex@npm:2.0.3-rc.3":
-  version: 2.0.3-rc.3
-  resolution: "eslint-config-codex@npm:2.0.3-rc.3"
+"eslint-config-codex@npm:^2.0.3":
+  version: 2.0.3
+  resolution: "eslint-config-codex@npm:2.0.3"
   dependencies:
     "@eslint/js": "npm:^9.14.0"
     "@stylistic/eslint-plugin": "npm:^2.10.1"
@@ -1729,7 +1729,7 @@ __metadata:
     vue-eslint-parser: "npm:^9.4.3"
   peerDependencies:
     eslint: ^9
-  checksum: 10c0/fea5fbcb07f9a995f6d57909885f2942cb3aeb0c2e27c36ac4894a920f425eac0ad4b68f297096e50692bb086a98d0f4b665527ea245c841d36e064b7bbbbc4f
+  checksum: 10c0/325cf79a1874e0f1177ea38ba150bff964ff9e84d05509da11f5599c0694e42a1c02d1f2694a123876decc6a40fb480b601e5818d506e0b78275fddc8641aee1
   languageName: node
   linkType: hard
 
