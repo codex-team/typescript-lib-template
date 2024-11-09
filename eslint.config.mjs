@@ -1,5 +1,10 @@
 import CodeX from 'eslint-config-codex';
 import { plugin as TsPlugin, parser as TsParser } from 'typescript-eslint';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export default [
   ...CodeX,
@@ -18,7 +23,7 @@ export default [
     languageOptions: {
       parser: TsParser,
       parserOptions: {
-        project: './tsconfig.eslint.json',
+        project: path.resolve(__dirname, 'tsconfig.json'),
         tsconfigRootDir: './',
         sourceType: 'module',
       },

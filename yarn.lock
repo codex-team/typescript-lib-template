@@ -4394,6 +4394,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mylib-utils@workspace:packages/utils"
   dependencies:
+    eslint: "npm:^9.14.0"
     typescript: "npm:^5.6.3"
   languageName: unknown
   linkType: soft
@@ -4402,6 +4403,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "mylib@workspace:packages/core"
   dependencies:
+    eslint: "npm:^9.14.0"
     mylib-utils: "workspace:^"
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.6.3"
